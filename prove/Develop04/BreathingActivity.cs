@@ -22,19 +22,7 @@ public class BreathingActivity : Activity
         BreathIn(4);
         BreathOut(6);
     }
-    // public void Run()
-    // {
-    //     // base.DisplayStartMessage();
-    //     // base.ShowSpinner(5);
-    //     Console.WriteLine();
-    //     BreathIn(4);
-    //     Console.WriteLine();
-    //     BreathOut(6);
-    //     Console.WriteLine();
-    //     // base.DisplayEndMessage();
-    //     // base.ShowSpinner(5);
-
-    // }
+    
     public void Run()
     {
         base.DisplayStartMessage();
