@@ -6,12 +6,7 @@ public abstract class Generator
     public Generator()
     {
         _content = new List<string>();
-        // _listContent = new List<string>();
-        // _content.AddRange(_listContent);
-        // foreach(var item in _content)
-        // {
-        //     Console.WriteLine(item);
-        // }
+        
     }
 
     public abstract void Content();

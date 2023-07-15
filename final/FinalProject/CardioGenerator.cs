@@ -3,23 +3,18 @@ public class CardioGenerator : Generator
 
     public override void Content()
     {
-        _content.Add("Burpees");
-        _content.Add("Jump Rope");
-        _content.Add("Jumping Jacks");
-        _content.Add("Squat Jumps");
-        _content.Add("Kickboxing");
-        _content.Add("Dancing");
-        _content.Add("Running the Stairs");
-        _content.Add("Jogging in Place");
+        _content.Add("Burpees: 3 x 10");
+        _content.Add("Jump Rope: 3 x 1 minute");
+        _content.Add("Jumping Jacks: 3 x 1 minute");
+        _content.Add("Squat Jumps: 5 x 10");
+        _content.Add("Kickboxing: 10 minutes");
+        _content.Add("Dancing: 10 minutes");
+        _content.Add("Running the Stairs: 10 minutes");
+        _content.Add("Jogging in Place: 3 x 1 minute");
         _listContent = _content.ToArray();
     }
 
-    // public override void GetRandomItem(int howMany)
-    // {
-    //     Console.WriteLine("Single Cardio Workout");
-    //     base.GetRandomItem(howMany);
-    // }
-
+    
 
 
     

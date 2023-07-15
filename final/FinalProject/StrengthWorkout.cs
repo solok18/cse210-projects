@@ -9,11 +9,21 @@ public class StrengthWorkout : Workouts
 
     public override void DisplayMessage()
     {
-        base.DisplayMessage();
+        Console.WriteLine("Today you will be working towards the strengh of Hercules");
+        Console.WriteLine();
     }
 
     public override void DisplayQuote()
     {
-        base.DisplayQuote();
+        StrengthQuoteGenerator quote = new StrengthQuoteGenerator();
+        Console.WriteLine("Quote of the day: ");
+        quote.Content();
+        quote.GetRandomItem(1);
+    }
+
+    public void Run()
+    {
+        DisplayMessage();
+        DisplayQuote();
     }
 }

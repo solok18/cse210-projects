@@ -7,6 +7,8 @@ public abstract class Workouts
     {
         _workoutDescription = workoutDescription;
         _workoutName = workoutName;
+
+        
     }
 
     public virtual void DisplayMessage()
